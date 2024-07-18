@@ -1,0 +1,27 @@
+.home-page-section{
+    animation: fadeIn 0.8s ease-in-out
+}
+@media (min-width:768px) {
+    .home-page-section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .author-profile-section{
+        height: 68vh;
+    display: flex;
+    align-items: center;
+    background: rgba(230, 218, 206, 1);
+    margin-top: 12px;
+    }
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

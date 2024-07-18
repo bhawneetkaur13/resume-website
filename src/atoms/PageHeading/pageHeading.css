@@ -1,0 +1,23 @@
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page-heading{
+    position: relative;
+    font-size: 28px;
+    padding-left: 24px;
+    letter-spacing: 1.2px;
+    margin: 0;
+}
+.page-heading::before{
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        width: 16px;
+        height: 16px;
+        background-color: rgba(0, 80, 255, 1);
+    
+}

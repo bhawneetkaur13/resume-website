@@ -1,0 +1,49 @@
+.resume-section{
+    background-color: rgba(230, 218, 206, 1);
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: fadeIn 1.2s ease-in-out;
+}
+.experience-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 42px;
+}
+.resume-item{
+    margin-top: 24px;
+}
+
+.download-resume-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 28px;
+
+}
+.download-resume-section .download-resume-button{
+    font-size: 12px;
+}
+.education-heading{
+    align-self: flex-start;
+    margin: 0;
+}
+@media (min-width:768px) {
+    .resume-section{
+        padding: 40px 100px 40px 100px;
+    }
+    
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

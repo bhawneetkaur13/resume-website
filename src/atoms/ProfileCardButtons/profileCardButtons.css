@@ -1,0 +1,9 @@
+.profile-card-buttons{
+    display: flex;
+    gap: 14px;
+    position: relative;
+}
+.resume-button,
+.projects-button{
+    margin-top: 26px;
+}

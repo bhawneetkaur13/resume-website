@@ -1,0 +1,41 @@
+.description-section{
+    background-color: rgba(230,218,206,1);
+    padding: 24px;
+    transform: translate(0px, -216px);
+    padding-top: 200px;
+    margin-bottom: -216px;
+}
+.intro-heading{
+    font-size: 36px;
+    margin-bottom: 8px;
+}
+.intro-description{
+    font-size: 18px;
+}
+.author-description{
+    font-size: 14px;
+}
+.author-description-section .profile-card-buttons{
+    display: none;
+}
+@media (min-width:768px) {
+    .description-section{
+        background-color: transparent;
+        margin-left: 100px;
+        margin-right: 80px;
+    }
+    .author-description-section .resume-button{
+        margin: 0;
+    }
+    .author-description-section .projects-button{
+        margin: 0;
+    }
+    .author-description-section .profile-card-buttons{
+        display: flex;
+    }
+}
+@media (max-width: 768px) {
+    .know-author-buttons{
+        display: none;
+    }
+}

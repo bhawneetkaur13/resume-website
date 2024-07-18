@@ -1,0 +1,26 @@
+.menu-list{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: 0;
+    font-size: 24px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    list-style: none;
+}
+.menu-item-link{
+    text-decoration: none;
+    color: #000;
+    transition: color 0.5s ease;
+}
+.menu-item-link:hover{
+    color: rgba(0, 80, 255, 1);
+}
+@media (min-width:768px) {
+    .menu-list {
+        display: flex;
+        flex-direction: row;
+        font-size: 12px;
+    }
+    
+}

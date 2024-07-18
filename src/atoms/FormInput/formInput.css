@@ -1,0 +1,28 @@
+.contact-input-section{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+    transition: transform 0.3s;
+}
+.contact-input-section:hover{
+    transform: translate(-10px);
+}
+.form-input{
+    border: 0;
+    border-bottom: 2px solid #000;
+    margin-top: 20px;
+    transition: border-bottom 0.2s ease-in-out;
+}
+.form-label{
+    font-weight: 600;
+}
+.required-asterisk {
+    color: red;
+    margin-left: 0.25rem;
+  }
+
+.form-input:focus{
+    border: none;
+    border-bottom: 2px solid rgba(0, 80, 255, 1);
+    outline: none;
+}

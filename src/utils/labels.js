@@ -1,0 +1,8 @@
+export const AUTHOR_NAME ='Bhawneet Kaur'
+export const RESUME = 'Resume'
+export const EXPERIENCE ='Experiecne'
+export const EDUCATION='Education'
+export const PROJECTS = 'Projects'
+export const AUTHOR_DESIGNATION= 'Associate Software Engineer'
+export const AUTHOR_PHONE_NUMBER = '+91 9592319964'
+export const AUTHOR_EMAIL = 'bhawneetkaur09@gmail.com'

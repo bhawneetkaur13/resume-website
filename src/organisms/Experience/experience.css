@@ -1,0 +1,117 @@
+.small-margin {
+    margin: 6px 0;
+}
+
+.experience-item {
+    background-color: #FFF;
+    padding: 24px;
+    margin-top: 24px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    animation: fadeIn 0.6s ease-in-out;
+}
+
+.experience-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.experience-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.date-heading {
+    color: rgba(0, 80, 255, 1);
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.job-position {
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 4px 0;
+    font-size: 1.1em;
+}
+
+.company-name, .company-location {
+    font-weight: 400;
+    margin: 4px 0;
+    font-size: 1em;
+    color: #666;
+}
+
+.job-description {
+    margin-top: 8px;
+    line-height: 1.6;
+    color: #333;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.experience-image-wrapper {
+    flex-shrink: 0;
+    position: relative;
+    max-width: 300px;
+}
+
+.experience-image {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.experience-image-wrapper:hover .experience-image {
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .experience-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .job-description {
+        max-width: 100%;
+    }
+
+    .experience-image-wrapper {
+        max-width: 100%;
+        margin-top: 16px;
+    }
+
+    .experience-image {
+        width: 100%;
+        max-width: 300px; 
+    }
+}
+
+@media (min-width: 768px) {
+    .experience-item {
+        margin-top: 42px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .job-description {
+        max-width: 60%;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,16 @@
+.contact-me-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+    background: #FFF;
+    width: 102%;
+    gap: 22px;
+    padding: 10px;
+}
+.contact-me-footer a{
+    transition: transform 0.4s ease-in-out;
+}
+.contact-me-footer a:hover{
+    transform: scale(1.1);
+}
